@@ -1,0 +1,318 @@
+/*topbar*/
+.topbar{
+    width: 100vw;
+    height: .68rem;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding:0 .12rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+.topbar span{
+    font-size: .3rem;
+    line-height: .3rem;
+    font-weight: 600;
+    color: #737373;
+    padding:.12rem;
+}
+.topbar div{
+    font-size: .25rem;
+    line-height: .25rem;
+    color: #757575;
+}
+.topbar div em{
+    font-family: 'iconfont';
+    margin: 0 .1rem;
+}
+/*bottombar*/
+.bottombar{
+    width: 100vw;
+    height: .75rem;
+    border-top: .01rem solid #F2F5F8;
+    background-color: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 99;
+}
+.bottombar_left{
+    width: 2.55rem;
+    height: 100%;
+    float: left;
+}
+.bottombar_left ul{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.bottombar_left li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bottombar_left span{
+    font-family: 'iconfont';
+    font-size: .3rem;
+    color: #7A7A7A;
+}
+.bottombar_left p{
+    font-size: .16rem;
+    line-height: .16rem;
+    color: #BCBCBC;
+}
+.bottombar_right{
+    float: right;
+    height: 100%;
+}
+.bottombar_right span{
+    width: 1.42rem;
+    height: 100%;
+    font-size: .2rem;
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.bottombar_right span:first-child{
+    background-color: #FFE816;
+    color: #4B4A44;
+}
+ .bottombar_right span:last-child{
+     background-color: #FF6699;
+     color: #fff;
+ }
+/*content*/
+.content{
+    width: 100vw;
+    position: absolute;
+    top: .68rem;
+    bottom: .75rem;
+    left: 0;
+    right: 0;
+}
+/*top*/
+.top{
+    width: 100vw;
+    height: 9.02rem;
+    background-color: #fff;
+}
+/*banner*/
+.swiper-container{
+    height: 6.13rem;
+    /*background-color: #00A5C4;*/
+}
+.wenzi{
+    width: 100vw;
+    height: 2.04rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: left;
+}
+.wenzi p{
+    padding: 0 .16rem;
+   font-size: .22rem;
+    line-height: .22rem;
+    color: #515151;
+}
+.wenzi span{
+    padding: 0 .16rem;
+    font-size: .3rem;
+    line-height: .3rem;
+    color: #FF6699;
+}
+.wenzi span em{
+    font-size: .16rem;
+    line-height: .16rem;
+    color: #9A9A9A;
+    text-decoration: line-through;
+}
+.wenzi span i{
+    width: .4rem;
+    height: .24rem;
+    background-color: #F1413D;
+    font-size: .14rem;
+    line-height: .14rem;
+    color: #fff;
+    border-radius: .08rem;
+}
+.xiaoliang{
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.wenzi .xiaoliang span{
+    font-size: .16rem;
+    line-height: .16rem;
+    color: #9D9D9D;
+}
+.xiaoliang div{
+    width: .01rem;
+    height: .24rem;
+    background-color: #DBDBDB;
+}
+.detail_more{
+    width: 100vw;
+    height: .85rem;
+    border-top: .01rem solid #EEEEEE;
+    padding:0 .15rem;
+    color: #818181;
+    display: flex;
+    align-items: center;
+}
+.detail_more span{
+    font-size: .18rem;
+    line-height: .18rem;
+    float: left;
+    margin-left: .25rem;
+}
+.detail_more i{
+    margin-left: .2rem;
+    font-size: .3rem;
+    font-weight: 600;
+}
+/*youhui*/
+.youhui{
+    margin-top: .08rem;
+    width: 100vw;
+    height: 1.59rem;
+    padding-left: .15rem;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: left;
+}
+.youhui_img{
+    width: 1.36rem;
+    height: .67rem;
+    position: relative;
+}
+.youhui span{
+    font-size: .18rem;
+    line-height: .18rem;
+    color: #4A4A4A;
+}
+.youhui_img img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+/*pingjia*/
+.pingjia{
+    width: 100vw;
+    /*height: 4.17rem;*/
+    margin-top: .08rem;
+    background-color: #fff;
+    padding:0 .15rem;
+}
+.pingjia_top{
+    width: 100%;
+    height: .75rem;
+    border-bottom: .01rem solid #E5E5E5;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: .35rem;
+}
+.pingjia_top span{
+    font-size: .22rem;
+    line-height: .22rem;
+    color: #454545;
+}
+.pingjia_top em{
+    font-size: .15rem;
+    line-height: .15rem;
+}
+.pingjia_top span:last-child{
+    font-size: .2rem;
+    line-height: .2rem;
+}
+.pingjia_top i{
+    font-size: .3rem;
+    color: #9F9F9F;
+}
+.pingjia_bottom{
+    width: 100%;
+    height: 3.34rem;
+    padding-top: .22rem;
+    border-bottom: .01rem solid #EEEEEE;
+}
+.pingjia_bottom_left{
+    width: .6rem;
+    height: .6rem;
+    border-radius: 50%;
+    border: .01rem solid #F5F5F3;
+    float: left;
+}
+.pingjia_bottom_right{
+    padding-left: .16rem;
+    display: flex;
+    flex-direction: column;
+}
+.pingjia_person{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.pingjia_person span{
+    font-size: .22rem;
+    line-height: .22rem;
+    color: #474747;
+}
+.pingjia_person div{
+    width: 1.5rem;
+    height: .52rem;
+    background-color: #FFDFED;
+    font-size: .28rem;
+    color: #A75A9F;
+    text-align: center;
+    line-height: .52rem;
+    border-radius: .2rem;
+}
+.pingjia_person p{
+    font-size: .16rem;
+    line-height: .16rem;
+    color: #9A9A9A;
+}
+.pingjia_bottom_right p{
+    font-size: .2rem;
+    line-height: .2rem;
+    color: #858585;
+}
+.pingjia_bottom_right p:nth-child(2){
+    font-size: .18rem;
+    line-height: .18rem;
+    color: #9D9D9D;
+    margin: .12rem 0 .15rem;
+}
+.pingjia_tu{
+    width: 3.5rem;
+    height: 1.05rem;
+    background-color: #0c80dc;
+    margin-top: .2rem;
+}
+.pingjia_tu img{
+    width: 1.05rem;
+    height: 1.05rem;
+    float: left;
+}
+/*dianpu*/
+.dianpu{
+    width: 100vw;
+    height: 3.44rem;
+    margin-top: .08rem;
+    background-color: #fff;
+}
+/*tuijian*/
