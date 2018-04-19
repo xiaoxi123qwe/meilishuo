@@ -211,7 +211,7 @@
 /*pingjia*/
 .pingjia{
     width: 100vw;
-    /*height: 4.17rem;*/
+    height: 18.5rem;
     margin-top: .08rem;
     background-color: #fff;
     padding:0 .15rem;
@@ -255,6 +255,9 @@
     border-radius: 50%;
     border: .01rem solid #F5F5F3;
     float: left;
+    background-image: url("../img/a2.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 .pingjia_bottom_right{
     padding-left: .16rem;
@@ -300,13 +303,13 @@
 .pingjia_tu{
     width: 3.5rem;
     height: 1.05rem;
-    background-color: #0c80dc;
     margin-top: .2rem;
+    display: flex;
+    justify-content: space-between;
 }
 .pingjia_tu img{
     width: 1.05rem;
     height: 1.05rem;
-    float: left;
 }
 /*dianpu*/
 .dianpu{

@@ -21,7 +21,7 @@
 }
 .wtop_icon span{
     font-family: 'iconfont';
-    font-size: .25rem;
+    font-size: .35rem;
     line-height: .32rem;
     color: #494949;
 }
@@ -39,7 +39,8 @@
     width: 1.06rem;
     height: 1.06rem;
     border-radius: 50%;
-    background-color: #0c80dc;
+    background-image:url("../img/tx.png");
+    background-size: cover;
 }
 .wtop_vip_person{
     display: flex;
@@ -94,7 +95,7 @@
 }
 .wcontent em{
     font-family: 'iconfont';
-    font-size: .5rem;
+    font-size: .35rem;
     color: #5B5B5B;
 }
 .wcontent span{
@@ -115,13 +116,14 @@
     padding-top: .15rem;
 }
 .wbottom em{
-    font-size: .5rem;
+    font-size: .35rem;
     color: #5A6462;
 }
 .wbottom span{
     font-size: .2rem;
     line-height: .2rem;
     color: #8F9B9F;
+    margin-top: .2rem;
 }
 /*wmore*/
 .wmore{

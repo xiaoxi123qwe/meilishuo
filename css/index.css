@@ -93,6 +93,9 @@
 .swiper-container{
     height: 2.8rem;
 }
+img.banner_img{
+    width: 100%;
+}
 .swiper-pagination-bullet{
     background-color: #fff;
 }
@@ -162,11 +165,24 @@
     justify-content: center;
     align-items: center;
 }
+.top_box li:first-child div{
+    background-image: url("../img/a1.jpg");
+}
+.top_box li:nth-child(2) div{
+    background-image: url("../img/a2.jpg");
+}
+.top_box li:nth-child(3) div{
+    background-image: url("../img/a3.jpg");
+}
+.top_box li:nth-child(4) div{
+    background-image: url("../img/a4.jpg");
+}
 .top_box div{
     width: 1.07rem;
     height: 1.07rem;
     border-radius: 50%;
-    background-color: #00A5C4;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .top_box h2{
     font-size: .18rem;
@@ -227,7 +243,7 @@
 }
 
 .now{
-    height: 6.27rem;
+    height: 6.5rem;
     margin-top: .07rem;
     display: flex;
     flex-direction: column;
@@ -241,15 +257,15 @@
     font-weight: 800;
 }
 .now_bottom{
-    height: 5.5rem;
+    height: 5.8rem;
 }
 .swiper-container1{
-    height: 5.5rem;
+    height: 5.7rem;
 }
 
 .sigle{
     margin-top: .07rem;
-    height: 15.85rem;
+    height: 16.85rem;
 }
 .sigle_box{
     width: 100vw;

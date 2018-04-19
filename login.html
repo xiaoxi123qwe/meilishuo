@@ -9,15 +9,20 @@
     <link rel="stylesheet" href="css/login.css">
     <title>登录</title>
     <script src="js/rem.js"></script>
+    <style>
+        input{
+            outline: none;
+        }
+    </style>
 </head>
 <body>
-    <div class="top">登录 <em>&lt;</em></div>
+    <div class="top">登录 <em onclick="javascript:window.location.href='shezhi.html'">&lt;</em><i style="position: absolute;right: 10px;font-size: .2rem;" onclick="javascript:window.location.href='sign.html'">编辑</i></div>
     <form action="">
         <label for="">美丽说账号</label>
         <input type="text" placeholder="用户名/邮箱/手机">
         <label for="">密码</label>
         <input type="text" placeholder="输入密码">
-        <input type="button" value="登录">
+        <input type="button" onclick="javascript:window.location.href='index.html'" value="登录">
     </form>
     <div class="other">
         <span>海外手机</span>

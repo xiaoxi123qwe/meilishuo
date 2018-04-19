@@ -44,12 +44,16 @@
 .content p{
     font-size: .18rem;
     color: #6B6B6B;
+    display: flex;
+    align-items: center;
 }
-.content img{
+.content em{
+    display: block;
     width: .76rem;
     height: .76rem;
     border-radius: 50%;
-    background-color: #00A0CE;
+   background-image: url("../img/tx.png");
+    background-size: cover;
 }
 .content i{
     font-size: .3rem;
